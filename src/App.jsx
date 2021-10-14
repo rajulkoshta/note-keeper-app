@@ -7,6 +7,7 @@ import notes from "./note";
 function AddDesc(desc){
   return (
       <Note 
+        key = {desc.key}
         title = {desc.title}
         content = {desc.content}
       />
